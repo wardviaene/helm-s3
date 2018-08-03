@@ -16,3 +16,4 @@ USER helm
 RUN helm init --client-only \
  && helm plugin install https://github.com/hypnoglow/helm-s3.git
 
+USER root
